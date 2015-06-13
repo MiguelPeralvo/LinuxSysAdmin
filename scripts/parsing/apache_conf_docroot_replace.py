@@ -2,7 +2,8 @@
 from cStringIO import StringIO 
 import re
 
-#Authors: Noah Gift & Jeremy M.Jones
+#Original Authors: Noah Gift & Jeremy M.Jones
+#Formatting modified by Miguel Peralvo (and potential minor changes).
 
 vhost_start = re.compile(r'<VirtualHost\s+(.*?)>') 
 vhost_end = re.compile(r'</VirtualHost') 
